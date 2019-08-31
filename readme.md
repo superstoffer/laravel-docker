@@ -21,3 +21,7 @@ composer install
 docker-compose exec app php artisan key:generate
 
 docker-compose exec app php artisan optimize
+
+## General commands
+
+docker-compose exec app php ./vendor/bin/phpunit
